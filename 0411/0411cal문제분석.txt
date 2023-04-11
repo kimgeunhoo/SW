@@ -1,0 +1,27 @@
+문제 정의
+    정수 2개와 연산자 1개(+, -, *, /)를 입력 받아서 
+    사칙연산을 수행하는 프로그램 작성
+문제 분석
+    1.변수-1번째 정수 2번째 정수 연산자
+    2.수식-사칙 연산
+           op가 +면 = num1+num2
+            op가 -면 = num1-num2
+             op가 *면 = num1*num2
+              op가 /면 = num1/num2
+    3.알고리즘
+        1.변수 선언
+            1번째 정수 num1에 입력
+            2번째 정수 num2에 입력
+            연산자 op 입력
+        2.if문 작성
+            if op == "+" :
+            print(num1+num2);
+            elif op == "-" :
+            print(num1-num2);
+            elif op == "*" :
+            print(num1*num2);
+            elif op == "/" :
+            print(num1/num2);
+            else :
+            print("유효한 연산자가 아닙니다.")
+        3.결과 출력
